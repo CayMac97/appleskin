@@ -1,4 +1,4 @@
-// Hook helper: draw_titles (rendered after health & hunger bars)
+// Hook helper: draw_title (rendered after health & hunger bars)
 fn appleskin_hud(
     game: &crate::game::Game<'_>,
     batch: &mut horizon_client::hud::HudBatch,

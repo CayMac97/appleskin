@@ -21,7 +21,7 @@ source = "glue.rs"
 [[injection]]
 id = "hud"
 kind = "HEAD"
-target = "horizon_client::game::titles::Game<'_>::draw_titles"
+target = "horizon_client::game::titles::Game<'_>::draw_title"
 helper = "hud.rs"
 bindings = [
   { name = "game", ty = "&crate::game::Game<'_>", value = "&*self" },
